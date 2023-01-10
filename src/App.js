@@ -22,9 +22,10 @@ function App() {
     )
   return (
     <div className="coin-app">
+     <h1>Here You Can Compare Many Crypto Currencies  </h1>
       <div className="coin-search">
         <form action="">
-    <h1>Here You Can Compare Many Crypto Currencies  </h1>
+   
           <input type="text" className="coin-input" placeholder="Provide the coin name" onChange={handleChange}/>
 
         </form>
